@@ -87,3 +87,6 @@ Within this project, I included:
 - [Link to Github](https://github.com/kellystone4/readMeGenerator1)
 - [Link to LinkedIn](https://www.linkedin.com/in/kelly-a-stone/)
 
+## Video demo:
+- [Youtube] (https://www.youtube.com/watch?v=EuB1sGUHiHk)
+
