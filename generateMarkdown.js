@@ -51,16 +51,13 @@ function promptUser(){
       message: "What does the suer need to know about contributing to the repo?",
       name: "contribution",
     },
-   
+    { type: "input",
+      message: "Questions?",
+      name: "questions"
+    },
 
 ])
 }
-
-var getName = (data) => {
-  var queryURL = `https://api.github.com/users/${data.username}`;
-  return axios.get(queryURL);
-}
-
 
 
 
@@ -68,19 +65,19 @@ var generateMarkdown = (data) => {
   console.log(data);
   return `
 
-#Title:
- ${data.title}
+# ${data.title}
 
 ## Description:
+     
 ${data.description}
-
+     
 
 ## Table of Contents:
 * Description: ${data.description}
 * Installation ${data.installation}
 * Usage ${data.usage}
 * License ${data.license}
-* Contributing ${data.contributing}
+* Contributing ${data.command}
 * Tests ${data.tests}
 * Badges ${data.badges}
 * Questions ${data.questions}
@@ -95,20 +92,27 @@ ${data.usage}
 ## License:
 ${data.license}
 
-## Contributing
-${data.contributing}
+## Contribution
+${data.contribution}
 
 ## Tests:
 ${data.tests}
 
 ## Badges:
 
-![badmath](https://img.shields.io/github/languages/top/${data.username}/${data.title})
+![badmath](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Questions:
 
-${data.username}, ${data.email}
+${data.questions}
+<br>
 
+Username: ${data.username}
+Email:  ${data.email}
+
+<br>
+
+Author:
 ![image](https://github.com/${data.username}.png?size=200)
 
 
