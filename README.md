@@ -88,5 +88,5 @@ Within this project, I included:
 - [Link to LinkedIn](https://www.linkedin.com/in/kelly-a-stone/)
 
 ## Video demo:
-- [Youtube] (https://www.youtube.com/watch?v=EuB1sGUHiHk)
+- [Youtube](https://www.youtube.com/watch?v=EuB1sGUHiHk)
 
