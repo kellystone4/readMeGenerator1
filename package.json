@@ -1,0 +1,24 @@
+{
+  "name": "readmegenerator1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellystone4/readMeGenerator1.git"
+  },
+  "author": "Kelly Stone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kellystone4/readMeGenerator1/issues"
+  },
+  "homepage": "https://github.com/kellystone4/readMeGenerator1#readme"
+}
