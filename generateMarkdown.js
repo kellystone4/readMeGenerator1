@@ -48,7 +48,7 @@ function promptUser(){
       name: "repo",
     }, {
       type: "input",
-      message: "What does the suer need to know about contributing to the repo?",
+      message: "What does the user need to know about contributing to the repo?",
       name: "contribution",
     },
     { type: "input",
@@ -66,7 +66,7 @@ var generateMarkdown = (data) => {
   return `
 
 # ${data.title}
-
+     
 ## Description:
      
 ${data.description}
@@ -80,23 +80,21 @@ ${data.description}
 * Contributing ${data.command}
 * Tests ${data.tests}
 * Badges ${data.badges}
-* Questions ${data.questions}
  
 
 ## Installation:
-${data.installation}
+${data.command}
+<br>
+${data.tests}
 
 ## Usage:
-${data.usage}
+${data.repo}
 
 ## License:
 ${data.license}
 
-## Contribution
+## Contribution:
 ${data.contribution}
-
-## Tests:
-${data.tests}
 
 ## Badges:
 
@@ -112,7 +110,6 @@ Email:  ${data.email}
 
 <br>
 
-Author:
 ![image](https://github.com/${data.username}.png?size=200)
 
 

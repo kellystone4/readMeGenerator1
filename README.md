@@ -1,37 +1,35 @@
 
 
 # Generate Markdown
-
+     
 ## Description:
      
-In this project, we had to create an application from the command-line that dynamically generates a README.md with input from the user. The user will be prompted with their Github username, email, description, and other information for the project the README.md is for. 
+For this project, we had to create an application from the command-line that dynamically generates a README.md with input from the user. The user will then be prompted with their Github username, email, description, and other information for the project README.md is for.
      
 
 ## Table of Contents:
-* Description: In this project, we had to create an application from the command-line that dynamically generates a README.md with input from the user. The user will be prompted with their Github username, email, description, and other information for the project the README.md is for. 
+* Description: For this project, we had to create an application from the command-line that dynamically generates a README.md with input from the user. The user will then be prompted with their Github username, email, description, and other information for the project README.md is for.
 * Installation undefined
 * Usage undefined
 * License MIT
-* Contributing undefined
+* Contributing npm i
 * Tests npm run test
 * Badges undefined
-* Questions Please feel free to send me any questions you may have! Contact info is listed below.
  
 
 ## Installation:
-undefined
+npm i
+<br>
+npm run test
 
 ## Usage:
-undefined
+Please credit github user 'kellystone4'.
 
 ## License:
 MIT
 
-## Contributing
-undefined
-
-## Tests:
-npm run test
+## Contribution:
+Nothing, enjoy!
 
 ## Badges:
 
@@ -39,7 +37,7 @@ npm run test
 
 ## Questions:
 
-Please feel free to send me any questions you may have! Contact info is listed below.
+Please feel free to send me any questions you may have! Contact infro is listed below.
 <br>
 
 Username: kellystone4
@@ -47,7 +45,6 @@ Email:  kellystone916@gmail.com
 
 <br>
 
-Author:
 ![image](https://github.com/kellystone4.png?size=200)
 
 
